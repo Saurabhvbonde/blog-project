@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: #f4f3ec;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.excerpt {
+  color: #495057;
+}
+
+.nav-pills-dark .nav-link {
+  color: #cfd2d6;
+  border-radius: 0;
+}
+
+.nav-pills-dark .nav-link.active {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.auth-card {
+  max-width: 420px;
+  width: 100%;
+}
